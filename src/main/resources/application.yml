@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5433/testdb1
+    username: postgres
+    password: postgres
+    pool:
+      enabled: false
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
